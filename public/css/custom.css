@@ -1,0 +1,214 @@
+.main-header {
+    z-index: 1000
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    min-height: 400px;
+}
+
+.app-dropdown .notify_dropdown.active {
+    border-left: 4px solid var(--primary-invert);
+}
+
+.notifications-area {
+    position: fixed;
+    width: 320px;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+a.btn-label {
+    /*height: 34px;*/
+}
+
+.delete-button {
+    margin-left: 0 !important;
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 4px;
+    background: #f44336 !important;
+}
+
+.side-gallery {
+    top: 70px;
+    height: auto;
+    bottom: 0;
+}
+
+.side-gallery .side-gallery-content {
+    overflow: auto;
+    height: 100%;
+}
+
+.ex-upload-item {
+    min-width: 250px;
+}
+
+.actions-list-item {
+    text-align: center;
+    line-height: 40px;
+}
+
+tr.hovered.bl-danger {
+    color: #999;
+    background: var(--danger-color-hover);
+}
+
+figure.figure {
+    position: relative;
+}
+
+input[type="submit"].close-button {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 5px;
+    text-shadow: 0 0 5px #000;
+    color: #fff;
+    font-weight: bold;
+    top: 5px;
+}
+
+.modal .modal-dialog-aside {
+    width: 450px;
+    max-width: 80%;
+    height: 100%;
+    margin: 0;
+    transform: translate(0);
+    transition: transform .2s;
+}
+
+.modal .modal-dialog-aside .modal-content {
+    height: inherit;
+    border: 0;
+    border-radius: 0;
+}
+
+.modal .modal-dialog-aside .modal-content .modal-body {
+    overflow-y: auto
+}
+
+.modal.fixed-left .modal-dialog-aside {
+    margin-left: auto;
+    transform: translateX(100%);
+}
+
+.modal.fixed-right .modal-dialog-aside {
+    margin-right: auto;
+    transform: translateX(-100%);
+}
+
+.modal.show .modal-dialog-aside {
+    transform: translateX(0);
+}
+
+.chat {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li.left .chat-body {
+    margin-left: 60px;
+}
+
+.chat li.right .chat-body {
+    margin-right: 60px;
+}
+
+.chat li .chat-body p {
+    margin: 0;
+    color: #777777;
+}
+
+.chat-img .img-circle {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 100%;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field:focus {
+    outline: none;
+}
+
+.select2-container {
+    min-width: 300px
+}
+
+.info-docs {
+    flex-wrap: nowrap
+}
+
+.pdf-file-warning {
+    color: red;
+}
+
+.back-to-list-button {
+    margin-bottom: 3rem;
+}
+
+.map-warn {
+    margin-bottom: 0;
+    color: #4caf50;
+}
+
+.tw-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.doc-delete-button {
+    border-radius: 50px;
+    padding: 0;
+    margin: 0;
+    height: 27px;
+    width: 27px;
+    background: #f44336ed;
+    border: none;
+}
+
+.btn-add-doc {
+    border: none;
+    border-radius: 2px;
+}
+
+.column-3{
+ justify-content: center;
+}
+
+.technocorp{
+    width: 80px;
+    height: auto;
+}
+
+.view-all-wrapper{
+    margin-bottom: 1.4rem;
+}
+
+.view-all{
+    height: 32px;
+    text-align: center;
+    color: var(--primary-invert);
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    padding: 1rem;
+}
